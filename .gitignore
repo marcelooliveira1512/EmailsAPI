@@ -1,0 +1,68 @@
+# Ignora arquivos de compilação e resultados de build
+.vs/
+bin/
+obj/
+
+# Ignora arquivos de dependências NuGet
+*.nuget.props
+*.paket.references
+packages/
+*.nupkg
+# Para incluir arquivos de pacote de build ou ferramentas, remova a linha a seguir
+!.nuget/
+# Include Newtonsoft.Json
+# exclui outros arquivos dll de terceiros se incluídos
+!packages/repo/
+# Ignora arquivos gerados pela documentação
+[Dd]oc/[Hh]elp/*
+[Dd]oc/*.[Tt]mp
+[Dd]oc/*.[Bb]in
+[Dd]oc/*.[Oo]bj
+# Ignora arquivos de publicação
+_PublishedWebsites/
+publishtarget/
+# Ignora arquivos de configuração de usuário
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Ignora arquivos de logs
+*.log
+# Ignora arquivos de teste
+testresults/
+[Bb]uild[Ll]og.*
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.scc
+# Ignora arquivos de análise
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.lastcodeanalysissucceeded
+# Ignora arquivos de depuração
+debug/
+release/
+*.swp
+*.bak
+*.*.bak
+*.tmp
+*.obj
+*.generated.cs
