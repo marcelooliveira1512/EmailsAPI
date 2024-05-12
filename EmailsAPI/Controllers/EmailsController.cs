@@ -16,7 +16,7 @@ namespace EmailsAPI.Controllers
             _sendEmail = sendEmail;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("sendemail")]
         public async Task<IActionResult> SendEmail(string email, string subject, string body)
         {
